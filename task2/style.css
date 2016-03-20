@@ -1,0 +1,52 @@
+﻿/*base*/
+*{padding: 0;margin: 0;}
+body{font-size: 14px/1.5;background: #dedede;}
+
+/**/
+.setColor{color: #5e5c5d;}
+.lineHeight{line-height: 40px;}
+.textIndent{text-indent: 2em;line-height: 25px;}
+
+/*common*/
+div#logo{height: 60px;background: #333;}
+.baiduLogo{width: 150px;padding-top: 10px;margin-left: 20px;}
+.nav{float: right;}
+.nav li{float: left;margin-right: 30px;}
+.nav li a{color: #fff;line-height: 60px;text-decoration: none;}
+.nav li a.nav_4 {color: #a5aab0;}
+
+.section1{margin-top: 10px;}
+.section1 > div{width: 95%;margin: auto;background: #fff;border:#ddd solid 4px;}
+.section1 > div > div{padding: 30px 15px;}
+.section1 div div h3{font-size: 18px; line-height: 40px;}
+.section1 div div p{font-size: 15px;}
+.section1 div div ul{list-style: none;padding: 20px 0 0 20px;}
+.section1 div div ul li{line-height: 25px;}
+
+.section1 div div div{width: 120px;border:1px solid #535c5d;margin-left: 40px;margin-bottom: 20px;margin-top: 20px;}
+.section1 div div div p{text-align: center;line-height: 30px;font-size: 14px;}
+.section1 div div div img{width: 100px;padding: 10px;padding-top: 0px;}
+
+.section1 div div ol{margin-left: 50px;margin-bottom: 10px;}
+.section1 div div ol li{line-height: 25px;}
+tr,td{height: 25px;padding-left: 5px;}
+.th1,.th2{width: 500px;text-align: left;background: #333;color: #fff;padding-left: 5px;padding-left: 5px;}
+.th3{width: 200px;text-align: left;background: #333;color: #fff;padding-left: 5px;}
+table{border-collapse:collapse;border-spacing:0;}
+.setBackground{background: #ccc;}
+
+.section2{margin-top: 10px;}
+.section2 > div{width: 95%;margin: auto;background: #fff;border:#ddd solid 4px;}
+.section2 > div > div{padding: 30px 15px;}
+.section2 >div >div h2{padding: 5px 0 5px 40px;font-size: 18px;border-left: 4px solid #ccc;}
+.section2 > div > div >div input{float: right;margin-right: 500px;clear: right;}
+.section2 > div > div >div{text-align: right;margin-top: 20px;}
+.section2 > div > div p{margin-left: 45%;margin-top: 20px;color: #ccc;}
+form > div{margin-top: 10px;}
+.textAlign1{margin-left: 45%;}
+.description{vertical-align: top;margin-left: 42%;}
+textarea{width: 600px;height: 100px;}
+
+#submit{padding: 4px 600px;background: blue;color: #fff;border-radius: 10px;border:none;}
+
+.banquan{text-align: center;padding-top: 20px;padding-bottom: 30px;background: #000;margin-top: 20px;color: #fff;font-size: 80%;}
