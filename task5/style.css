@@ -1,0 +1,49 @@
+﻿/*base*/
+*{padding: 0;margin: 0;}
+body{font-size: 14px/1.5;background: #dedede;}
+ul{list-style: none;}
+
+
+/*page*/
+div#logo{height: 60px;background: #333;}
+.baiduLogo{width: 150px;padding-top: 10px;margin-left: 20px;}
+.nav{float: right;}
+.nav li{float: left;margin-right: 30px;}
+.nav li a{color: #fff;line-height: 60px;text-decoration: none;}
+.nav li a.nav_4 {color: #a5aab0;}
+
+/*layout*/
+aside{width: 365px;float: right;background: #fff;margin-right: 20px;margin-top: 20px;border-left:1px solid #ccc;border-top:1px solid #ccc;border-right: 3px solid #aaa;border-bottom:3px solid #aaa; }
+#left{margin-left: 20px;margin-right: 405px;margin-top: 20px;border-left:1px solid #ccc;border-top:1px solid #ccc;border-right: 3px solid #aaa;border-bottom:3px solid #aaa;}
+.pd10{padding: 20px;}
+
+/*layout-right*/
+.pd10 h2{font-size: 16px;padding: 5px 10px ;border-left: 3px solid #aaa;}
+.right-center{float: right;clear: both;margin-right: 30px;margin-top: 10px;overflow: hidden;}
+.cb{clear: both;padding-top: 10px;color: #ccc;margin-left: 60px;}
+.mr20{margin-left: 98px;}
+.mt10{margin-top: 10px;}
+.description{vertical-align: top;}
+.ml10{margin-left: 66px;}
+textarea{width: 170px;height: 90px;}
+.button input{padding: 5px 135px;border-radius: 5px;border: none;background: blue;color: #fff;}
+
+/*layout-left*/
+.fs22{font-size: 22px;}
+.lh{line-height: 2;}
+.bg{background: #fff;padding: 20px ;}
+.setColor1{color: #ccc;}
+.textIndent{text-indent: 2em;}
+.wd200{width: 200px;}
+.ml20{margin-left: 20px;}
+
+.wd100{width: 100px;}
+.bd{border: 1px solid #ccc;float: left;}
+.oh{overflow: hidden;}
+
+
+table{border-collapse: 0;border-spacing: 0;width: 100%;}
+th{text-align: left;background: #666;}
+.setColor2{background: #ddd;}
+
+.copyright{text-align: center;padding: 20px;background: #000;color: #fff;}
