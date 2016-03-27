@@ -1,0 +1,85 @@
+﻿/*base*/
+*{padding: 0;margin: 0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a{text-decoration: none;}
+/*common*/
+#layoutCenter{width: 892px;margin: auto;}
+.fl{float: left;}
+.fr{float: right;}
+.cb{clear: both;}
+/*page*/
+.fs24{font: 24px "微软雅黑" ;}
+.fs12{font-size: 12px ;}
+.fs116{font: 116px "微软雅黑";}
+.fs55{font: 55px "微软雅黑" ;}
+.fs21{font: 21px "微软雅黑";}
+.fs16{font: 16px "微软雅黑";text-decoration: underline;font-weight: bold;}
+.kaiti{font-family: "楷体";}
+.lh16{line-height: 16px;opacity: 0.7;}
+.ml32{margin-left: 32px;}
+.mt60{margin-top: 60px;}
+.mt40{margin-top: 40px;}
+.mt8{margin-top: 8px;}
+.textIndent{text-indent: 2em;}
+/*logo*/
+#logo p:first-child{ width: 110px;height: 61px;background: #d45d5c;}
+#logo a{color: #fff;font: 12px "黑体";position: relative;top: 38px;left: 5px;}
+#logo p:last-of-type{position: relative;top: 40px;color: #d45d5c;font: 12px "黑体";}
+.hr1{height: 2px;width: 892px;background: #938e8c;border: none;}
+.a{overflow: hidden;}
+
+#computer{margin-top: 20px;position: relative;float: left;}
+#computer div:first-of-type{width: 191px;height: 301px;background: #75b86b;opacity: 0.5;position: absolute;top: 0;left: 0;}
+#computer div:last-of-type{width: 191px;height: 301px;background:  #d45d5c;opacity: 0.5;position: absolute;top: 0;left: 450px;}
+
+#aboutTec{margin-top: 20px;margin-left: 690px;}
+#aboutTec hr{width: 203px;height:2px;border: none;background: #cc8091;}
+.about{font-variant: small-caps;text-decoration: underline;line-height: 30px;}
+.technology{line-height: 16px;}
+.f700{font-style: italic;color: #75b86b;}
+.setColor1{color: #cc8091;}
+.position{position: relative;top: 17px;}
+
+
+#web{width: 641px;overflow: hidden;}
+.web40{width: 32%;}
+.web30{width: 29%;}
+.setColor2{color: #418c59;}
+.setColor3{color: #d2994f;}
+.setColor4{color: #cc7680;}
+.web30  ul li span{color: #cd4a48;font-style: italic;}
+
+
+.the{font: 72px "黑体" ;font-style: italic;font-weight: bold;color: #f5e327;line-height: 40px;}
+.the span{font: 42px "黑体";color: #11456b;font-weight: bold;line-height: 50px;}
+.wl{width: 415px;}
+.webaera{font: 33px "黑体";font-weight: bold;color: #11456b;}
+.firstP{font: 70px "微软雅黑" ;color: #f5e327;}
+.mt8 img{padding: 10px;}
+
+.wr{margin-left: 440px;}
+.computerblack{position: relative;width: 100%;}
+.computerblack p{position: absolute;top: 204px;z-index: 2; left: 40px;font: 12px "微软雅黑";font-style: italic;color: #72b16a;padding: 3px 10px ;border-left: 3px solid #72b16a;}
+.computerblack p span{color: #fff;font: 26px "微软雅黑";}
+.computerblack div{position: absolute;background: #000;opacity: 0.5;top: 195px;left: 0;width: 458px;height: 61px;}
+
+.hello{background: #eeede6;overflow: hidden;width: 459px;}
+.hello ul{margin-top: 20px;}
+.hello ul li{font: 16px "宋体";text-align:left;padding-left: 10px;line-height: 36px;}
+.hello ul li span{font:12px "宋体";}
+.hello > div > div{width: 260px;height: 160px;background: #d45d5c;}
+.n0{font: 110px "微软雅黑";color: #fff;display: inline-block; padding-right: 3px;}
+.hello > div > div div{position: relative;top: -106px;color: #fff;border-left: 2px solid #fff;left: 71px;width: 170px;}
+.hello > div > div div p.ita{font: 21px "黑体";font-style: italic;line-height: 25px;}
+.hello > div > div div p:last-child{font: 12px "黑体";line-height: 18px;}
+.hello > div > div div p{padding-left: 5px;}
+
+#world{position: relative;}
+.world{width: 180px;font: 14px "黑体";color: #5a5b5b;font-style: italic;position: absolute;left: 270px;top: 15px;}
+.world span{font: 72px "黑体";color: #d45d5c;}
+.world span:first-child{float: left;height: 26px;margin-top: -10px;margin-left: -38px;}
+.world span:last-child{float: right;height: 26px;margin-top: -10px;margin-right: -20px;}
+
+.hr2{background: #938e8c;}
+.last{text-align: right;font: 12px "黑体";color: #d45d5c;margin-bottom: 40px;}
