@@ -1,0 +1,73 @@
+﻿/*base*/
+*{padding: 0;margin: 0;}
+a{text-decoration: none;}
+ul{list-style: none;}
+li{list-style-type: none;}
+
+
+/*logo*/
+#logo{position: relative;}
+#logo div{position: absolute;top: 0;left: 5%;}
+#logo div a{color: #fff;font: 22px "微软雅黑";display: block;line-height: 50px;}
+#logo p{text-align: center;color: #fff;line-height: 50px;background: #90d6d8;font-size: 24px;}
+
+
+/*nav*/
+nav{overflow: hidden;}
+nav ul li{float: left;width: 20%;text-align: center;line-height: 50px;border-bottom: 2px solid #fff;}
+nav ul li:hover{border-bottom: 2px solid #91d4da;}
+nav ul li a{color: #000;}
+
+/*banner*/
+#banner img{width: 100%;}
+
+
+/*label*/
+#label{padding-top: 20px;background: #fff;overflow: hidden;}
+#label ul li{float: left;width: 20%;text-align: center;}
+#label ul li img{width: 50%;}
+#label ul li p{margin-top: 10px;margin-bottom: 10px;}
+
+/*column*/
+#column{padding-top: 20px;border-top: 1px solid #dfdfdf;overflow: hidden;padding-bottom: 20px;}
+#column ul li{float: left;width: 33%;text-align: center;border-right: 1px solid #dfdfdf;}
+#column ul li:last-of-type{border-right: 1px solid #fff;}
+#column ul li img{width: 50%;}
+#column ul li h3{line-height: 30px;}
+
+
+/*module1*/
+#module1{clear: both;margin-left: 1%;margin-right: 1%;}
+#module1 h2{font-size: 24px;}
+#module1 hr{margin-top: 10px;margin-bottom: 10px;}
+#module1 div{clear: both;overflow: hidden;}
+#module1 div:first-of-type{margin-bottom: 20px;}
+#module1 div img{width: 33%;float: left;border: 1px solid #fcd08a;}
+#module1 div ul li{float: left;width: 27%;background: #f8f8f8;margin-left: 4%;line-height: 50px;text-align: center;}
+#module1 div ul li:nth-child(1){margin-bottom: 17px;}
+#module1 div ul li:nth-child(2){margin-bottom: 17px;}
+
+/*back*/
+#back{height: 20px;background: #dedede;}
+/*module2*/
+#module2{clear: both;margin-left: 2%;margin-right: 2%;margin-bottom: 20px;}
+#module2 h2{font-size: 24px;}
+#module2 hr{margin-top: 10px;margin-bottom: 10px;}
+#module2 div{clear: both;overflow: hidden;}
+#module2 div:first-of-type{margin-bottom: 20px;}
+#module2 div img{width: 33%;float: left;border: 1px solid #fcd08a;}
+#module2 div ul li{float: left;width: 27%;background: #f8f8f8;margin-left: 4%;line-height: 48px;text-align: center;}
+#module2 div ul li:nth-child(1){margin-bottom: 17px;}
+#module2 div ul li:nth-child(2){margin-bottom: 17px;}
+
+/*article*/
+#article > div{clear: both;margin-left: 2%;margin-right: 2%;overflow: hidden;position: relative;border-bottom: 2px solid #ecedef;padding-bottom: 20px;}
+#article > div:first-of-type{margin-bottom: 30px;}
+#article > div > img{width: 40%;float: left;}
+#article > div > h3{font-size: 22px;margin-left:45%;}
+#article > div > p{position: absolute;left: 46%;top: 70%;}
+#article > div:last-of-type{margin-top: 10px;padding-bottom: 20px;}
+#article > div:last-of-type h2{font-size: 22px;}
+#article > div:last-of-type ul{overflow: hidden;margin-top: 10px;}
+#article > div:last-of-type ul li img{width: 32%;float: left;margin-left: 1%;}
+#article > div:last-of-type div p{margin-top: 10px;}

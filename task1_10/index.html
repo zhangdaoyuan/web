@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Task 10</title>
+  <style>
+        * { margin: 0; padding: 0; }
+        .Con { display: flex; flex-direction: row; /**一行显示**/  display: -webkit-flex; 
+          -webkit-flex-direction: row; padding: 20px;  align-items: center; /**侧轴居中放置**/
+          justify-content: space-between; /**平均分布在行里，第一个元素在浏览器最左边，第二个在最右边**/}
+        .Con > div { width: 148px; margin-bottom: 20px; border: 1px solid #f00; order: 2; }
+        .Con > div:nth-child(1) { height: 120px; }
+        .Con > div:nth-child(2) { height: 100px; }
+        .Con > div:nth-child(3) { height: 40px; }
+        .Con > div:nth-child(4) { height: 200px; border-color: #00f; }
+        @media screen and (max-width: 640px) 
+        {
+          .Con { align-items: flex-start;/**顶端对齐**/flex-wrap: wrap;-webkit-flex-wrap: wrap;/**多行显示**/}
+          .Con > div:nth-child(4) {  order: 1; }
+        }
+  </style>
+</head>
+<body>
+  <div class="Con">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</body>
+</html>

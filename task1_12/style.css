@@ -1,0 +1,29 @@
+﻿/*base*/
+*{padding: 0;margin: 0;}
+a{text-decoration: none;display: block;color: #fff;padding: 5px 10px;}
+ul{list-style: none;}
+li{list-style-type: none;}
+
+/*table*/
+th,td{line-height: 30px;}
+th{background: #000;color: #fff;}
+tr:nth-child(2) td{color: red;}
+tr:nth-child(3) td{color: red;}
+tr:nth-child(4) td{color: red;}
+tr:nth-child(2n+3) td{background: #ccc;}
+
+
+form{margin-top: 40px;}
+form input{width: 200px;-webkit-transition:1s width;-moz-transition:1s width;}
+form input:focus{width:300px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;}
+
+ul{width: 200px;height: 100px;overflow: hidden;left: 0;-webkit-transition: left 1s ease-in-out;}
+#blue{width: 200px;background: blue;height: 100px;float: left;}
+#red{width: 200px;background: red;height: 100px;float: left;}
+#black{width: 200px;background: black;height: 100px;float: left;}
+
+#banner{position: relative;margin-top: 40px;}
+#banner > div{position: absolute; top: 71px;left: 100px;}
+#banner > div > div{float: left;margin-left: 5px;background: #000;opacity: 0.5;}
+
+

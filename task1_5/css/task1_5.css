@@ -1,0 +1,55 @@
+            *{ margin:0; padding:0; }
+            body{ background: #ddd; font-family: "Microsoft Yahei"; width:100%; }
+            .top{ background:#363636; height:80px; width:100%; }
+            .top img{ margin-top:15px; float:left; margin-left: 50px; }
+            @media screen and (max-width: 680px) {
+                        ul{
+                                 display: none;
+                                }
+                             }
+            .top ul{margin-right: 25px; float:right;}
+            .top ul li{ float:left;position: relative;list-style:none;color: #fff; margin-right: 20px; margin-top: 35px; }
+            .top ul li:before{content: "";display: block;width: 6px;height: 6px; border-radius: 50%;background-color: #000;position: absolute;top: 5px;left: -12px;}
+            .top ul .li4{ color:#ddd; }
+            .container {background-color: #ddd;padding: 15px; overflow: auto;}
+            .leftContainer {float: left;margin-right: 400px;}
+            .leftContainer:after {clear: both; content: ""; display: block; width: 0;}
+            .pages {overflow: auto;border: 1px solid #ccc;padding: 20px;background-color: #fff; box-shadow: 1px 1px 1px #888; margin-bottom: 20px;}
+            .pages:last-of-type { margin-top: 40px;}
+
+            .pages h1{ padding-top: 30px; text-indent: 30px; }
+            .pages h2{ color:#676767; padding-top: 15px; text-indent: 30px; }
+            .pages span{ color:#676767; margin-top: 15px; text-indent: 30px; display: block; }
+            .pages .p1,.p2,.pages .p1{ margin:20px; }
+            .pages .p1,.pages .p1{ padding-bottom: 10px; }
+            .pages .p2{ padding-bottom: 40px; }
+            .pages img,.pages img{ margin-left: 20px; display:block; padding-bottom: 20px; }
+            .pages ul{ list-style: none; margin-left: 40px; padding-bottom: 20px; }
+            .pages ul li{ margin-top: 10px; }
+            .pages div{ border: 1px solid #ddd; width:180px; height:150px; margin: 20px 70px 30px; }
+            .pages div p{ margin-bottom: 10px; text-indent:40px; }
+            .pages div img{ margin:5px auto; display:block; }
+            .pages ol{ margin-left: 70px; margin-top:10px; padding-bottom: 20px; }
+            .pages p{ text-indent: 20px; }
+            .pages table{ border: 1px solid  #DCDCDC; width: 97%; border-spacing: 0; margin:0px auto; }
+            .pages tr th{ background-color: black; border: 1px solid  #DCDCDC; color: white; }
+            .pages tr td{ border: 1px solid  #DCDCDC; }
+            .pages tr.table-sum{ background-color: #DCDCDC; border: 1px solid  #DCDCDC; }
+            .rightContainer{width:360px;margin-left: -385px;float:left;}
+            .rightContainer form div { margin: 15px 0px;}
+            .rightContainer .sidebar{ background: white; padding: 20px; }
+            .rightContainer h2{ line-height: 1.5;padding-left: 15px;border-left: 3px solid #ccc; color: #000; font-size: 17px;}
+            .rightContainer .inp{ display: block; margin: 20px; }
+            .rightContainer .inp label{ display: inline-block; margin-right: 0.5%;  width: 35%;  text-align: right;  font-size: 12px; vertical-align: top;}
+            .rightContainer .inp .submit{ width: 100%; background: #4169E1; border: none; padding: 10px 25px 10px 25px; color: #FFF; box-shadow: 1px 1px 5px #B6B6B6; border-radius: 6px; cursor: pointer; }
+            .rightContainer .inp textarea{width: 55%;height: 100px;}
+           
+            
+            .rightContainer  span{ margin-left:130px;font-size: 13px; color: #ccc; margin-bottom: 10px; }
+            @media screen and (max-width: 640px) {
+                         .rightContainer {
+                                         display: none;
+                                    }
+                                }
+            #footer{ background-color: black; height: 70px; width:100%;color:#fff;}
+            #footer p{ text-align: center; line-height: 30px; }
